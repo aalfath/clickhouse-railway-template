@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased (2026-11-16)
+
+- README: add the Deploy on Railway button for the published template `clickhouse-3`. No change to the image or config.
+
 ## 26.10.4.207 (2026-11-16)
 
 First release.
