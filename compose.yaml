@@ -1,0 +1,14 @@
+# Local test only (not used by Railway)
+services:
+  clickhouse:
+    build: .
+    labels: [her=2195]
+    environment:
+      PORT: "8123"
+      CLICKHOUSE_USER: default
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:?set CLICKHOUSE_PASSWORD for the local test}
+      CLICKHOUSE_DB: default
+    ports: ["42195:8123"]
+    volumes: [chdata:/var/lib/clickhouse]
+volumes:
+  chdata:
