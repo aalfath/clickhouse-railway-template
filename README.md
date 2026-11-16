@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/clickhouse-3?utm_medium=integration&utm_source=button&utm_campaign=clickhouse)
+
 # ClickHouse on Railway
 
 A one-click [Railway](https://railway.com) template for [ClickHouse](https://clickhouse.com), the open-source column-oriented database for real-time analytics.
